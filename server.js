@@ -1,9 +1,10 @@
 const server = require('./app')
+require('dotenv').config()
 
 
-server.listen (8312, ( err ) => {
+server.listen (process.env.PORT, ( err ) => {
 
     if ( err ) throw new Error(err);
 
-    console.log( 'server running on:' , 8312);
+    console.log( 'server running on:' , process.env.PORT);
 })
