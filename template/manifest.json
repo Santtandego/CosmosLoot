@@ -1,0 +1,25 @@
+{
+    "name": "cosmosloot",
+    "short_name": "cosmoloot",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#FFADC6",
+    "theme_color": "#FFADC6",
+    "description": "cosmosloot web",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
